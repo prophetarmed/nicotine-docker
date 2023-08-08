@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  nicotine:
+    build: .
+    user: 1000:1000
+    ports:
+      - 8085:8085
+    volumes:
+      - ./data/nicotine:/home/nicotine
+    restart: unless-stopped
