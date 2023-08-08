@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   nicotine:
-    build: .
+    image: inalone/nicotine
     user: 1000:1000
     ports:
       - 8085:8085
