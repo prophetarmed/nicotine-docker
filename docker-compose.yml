@@ -7,5 +7,8 @@ services:
     ports:
       - 8085:8085
     volumes:
-      - ./data/nicotine:/home/nicotine
+      - /place/for/persistentdata:/home/nicotine
+      - /place/for/incomplete:/home/nicotine/.local/share/nicotine/incomplete
+      - /place/for/downloads:/home/nicotine/.local/share/nicotine/downloads
+      - /place/for/uploads:/home/nicotine/.local/share/nicotine/received
     restart: unless-stopped
