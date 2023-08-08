@@ -6,4 +6,4 @@ This is a Docker image that makes use of the `broadway` backend for GDK, allowin
 
 ## Known caveats
 
-- The dialogue box on first boot is pretty much unusable. A workaround is to manually edit the config file after the first run, and then restart the Docker container.
+- The dialogue box on first boot is pretty much unusable. A workaround is to manually edit the config file after the first run with your username and password, and then restart the Docker container.
